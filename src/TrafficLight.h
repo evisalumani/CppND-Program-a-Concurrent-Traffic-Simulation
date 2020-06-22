@@ -54,6 +54,7 @@ public:
 
 private:
     // typical behaviour methods
+    MessageQueue<TrafficLightPhase> _messageQueue;
     TrafficLightPhase _currentPhase;
     void cycleThroughPhases();
 
